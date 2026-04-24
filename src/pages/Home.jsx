@@ -17,26 +17,30 @@ const Home = () => {
         <Hero />
       </section>
 
+      <section id="services" className="scroll-mt-24">
+        <Services />
+      </section>
+
       <section id="about" className="scroll-mt-24">
         <WhyChooseUs />
       </section>
 
-      <section id="services" className="scroll-mt-24">
-        <Services />
-      </section>
+        <Process />
 
       <section id="blog" className="scroll-mt-24">
         <Blog />
       </section>
 
-      <section id="contact" className="scroll-mt-24">
         <Consultation />
+
+      <section id="contact" className="scroll-mt-24">
+        
         <Support />
         <Footer />
       </section>
 
-      <Process />
       
+
     </>
   );
 };
